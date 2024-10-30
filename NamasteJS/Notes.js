@@ -26,6 +26,8 @@
 18. always add or put declarations the initializations on the top to aviod any temporal dead zone
 19. let and const are block scoped.
     var is a gobal scope.
-20.lexical scope is nothing but a scope inside a scope.
+20. lexical scope is nothing but a scope inside a scope.
+21. When a js script get hoisted (a Global Execution Context) gets created 'var' listed towards 'Global environment' and other variables 'let' and 'const' declarations go to the 'Block environment' 
+22. Closure :Function bundled with its lexical environment is known as a closure. Whenever function is returned, even if its vanished in execution context but still it remembers the reference it was pointing to. Its not just that function alone it returns but the entire closure.
 
 */
